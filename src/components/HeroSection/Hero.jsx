@@ -15,9 +15,6 @@ const Hero = () => {
                 <div className="hero-right-side">
                     <img src={heroSectionStudent} alt="student-img" />
                 </div>
-                <div className="bottom-heading">
-                    <img src={Announcement} alt="heading img"/>
-                </div>
             </div>
         </div>
     )

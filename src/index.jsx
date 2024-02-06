@@ -11,13 +11,15 @@ import ContactUs from "./pages/ContactUs";
 import Events from "./pages/Events";
 import USAPage from "./pages/UsaCountry";
 import Hero from "./components/HeroSection/hero";
+import Service_for_Home from "./components/Service_for_home/Service_for_home.jsx";
 
 const app = document.getElementById("app");
 const root = ReactDOMClient.createRoot(app);
 root.render(
    <BrowserRouter>
       <Navbar />
-      <Hero/>
+      {/* <Hero/> */}
+      {/* <Service_for_Home/> */}
       <Routes>
          <Route path="/" element={<HomePage />} />
          <Route path="/services" element={<Services />} />

@@ -113,3 +113,8 @@
 .copy-right-section ul li{
     margin: 0 20px;
 }
+
+li:hover{
+    text-decoration: underline;
+    color: #e6e8eb;
+}

@@ -10,12 +10,14 @@ import CountryInfo from "./pages/CountryInfo";
 import ContactUs from "./pages/ContactUs";
 import Events from "./pages/Events";
 import USAPage from "./pages/UsaCountry";
+import Hero from "./components/HeroSection/hero";
 
 const app = document.getElementById("app");
 const root = ReactDOMClient.createRoot(app);
 root.render(
    <BrowserRouter>
       <Navbar />
+      <Hero/>
       <Routes>
          <Route path="/" element={<HomePage />} />
          <Route path="/services" element={<Services />} />

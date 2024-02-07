@@ -1,15 +1,14 @@
 import React from "react";
 import './Hero.css';
 import heroSectionStudent from '../images/heroSectionStudent.png';
-const Hero = () => {
+const HeroForService = () => {
     return (
         <div className="hero-section">
             <div className="left-right-section">
                 <div className="hero-left-side">
-                    <p>Shaping Futures ,
-                        Connecting Cultures</p>
-                    <span>Our technology-driven solutions assist international students in selecting top univercity world wide.</span>
-                    <button>Enquire Now</button>
+                    <p>Services we offer</p>
+                    <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</span>
+                    <button>Contact Us</button>
                 </div>
                 <div className="hero-right-side">
                     <img src={heroSectionStudent} alt="student-img" />
@@ -19,4 +18,4 @@ const Hero = () => {
     )
 }
 
-export default Hero;
+export default HeroForService;

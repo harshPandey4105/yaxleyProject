@@ -1,0 +1,49 @@
+.hero-countryInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 80%;
+    padding: 100px;
+    margin: auto;
+}
+.hero-countryInfo p{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+.hero-countryInfo span{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    width: 50%;
+}
+
+.search-bar{
+    margin-top: 20px;
+    display: flex;
+}
+.search-bar input {
+   width: 100%;
+   border: none;
+   padding: 7px 20px;
+   border-radius: 40px;
+   margin-left: 60px;
+}
+
+.search-bar button{
+   border: none;
+   border-radius: 50%;
+   position: relative;
+   right: 55px;
+   background-color: #FF6612;
+   color:  white;
+}
+
+.btn-img{
+    width: 20px;
+}
+
+
+

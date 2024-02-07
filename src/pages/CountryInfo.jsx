@@ -1,43 +1,30 @@
 import React, { useState } from 'react';
+import CountryInfoHeroForService from '../components/HeroSection/HeroForCountryInfo';
+import Usa from '../components/Usa/Usa';
+import UnitedKingdom from '../components/UnitedKingdom/UnitedKingdom';
+import Canada from '../components/Canada/Canada';
+import Australia from '../components/Australia/Australia';
+import NewzeLand from '../components/NewzeLand/NewzeLand';
+import Singapore from '../components/Singapore/Singapore';
+import Ireland from '../components/Ireland/Ireland';
+import France from '../components/France/France';
+import Poland from '../components/Poland/Poland';
+import Faqs from '../components/Faqs/Faqs';
 
 const CountryInfo = () => {
-  const [count, setCount] = useState(0);
-
-  const increment = () => {
-    setCount(count + 1);
-  };
-
-  const decrement = () => {
-    setCount(count - 1);
-  };
-
   return (
     <div>
-      <header>
-        <h1>Country Info Page</h1>
-        {/* You can add navigation links or other header content here */}
-      </header>
-      <main>
-        <section>
-          <h2>Counter</h2>
-          <p>Current Count: {count}</p>
-          <button onClick={increment}>Increment</button>
-          <button onClick={decrement}>Decrement</button>
-        </section>
-        <section>
-          <h2>Info</h2>
-          <p>
-            This is a simple counter info page built using React.js. It
-            demonstrates how to use state to manage a counter and update it
-            through user interactions.
-          </p>
-        </section>
-      </main>
-      <footer>
-        <div className="footer-content">
-          <p>This is the footer of the counter info page</p>
-        </div>
-      </footer>
+       <CountryInfoHeroForService/>
+       <Usa/>
+       <UnitedKingdom/>
+       <Canada/>
+       <Australia/>
+       <NewzeLand/>
+       <Singapore/>
+       <Ireland/>
+       <France/>
+       <Poland/>
+       <Faqs/>
     </div>
   );
 };

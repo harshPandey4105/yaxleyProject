@@ -5,7 +5,7 @@ const CourseSearch=()=>{
         <div className="search-course">
             <h1>Course Search</h1>
             <p>Unveil Your Prefect University and Dream <span>Course</span></p>
-            <div className='search-bar'>
+            <div className='course-search-bar'>
                 <input
                     type="text"
                     placeholder="Search Course"

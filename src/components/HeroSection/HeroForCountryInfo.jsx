@@ -8,7 +8,7 @@ const CountryInfoHeroForService = () => {
             <div className="hero-countryInfo">
                 <p>Country Information</p>
                 <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</span>
-                <div className='search-bar'>
+                <div className='country-search-bar'>
                     <input
                         type="text"
                         placeholder="Please enter your email Id"

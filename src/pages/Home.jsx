@@ -6,7 +6,7 @@ import CountryInfo from '../components/CountryInfo/Country';
 import CourseSearch from '../components/CourseSearch/CourseSearch';
 import Events from '../components/Events/Events';
 import Testimonils from '../components/Testimonial/Testimonials';
-import Faqs from '../components/Feqs/Faqs';
+import Faqs from '../components/Faqs/Faqs';
 
 const HomePage = () => {
   return (
